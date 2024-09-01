@@ -7,6 +7,7 @@ eypz({
     category: "main",
     filename: __filename
 },
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 let Ameen = 'https://telegra.ph/file/b6269f96b3df6f164cf68.jpg'
 let AmeenInt = `
 ┌─❖
@@ -578,7 +579,8 @@ let AmeenInt = `
    └─────────────┈ ⳹
 > © Int Bots
 `
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+
+
 try{
 return await conn.sendMessage(from,{image: {url: Ameen },caption: AmeenInt },{quoted: mek})
 }catch(e){
