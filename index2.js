@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['917994489493', '916238768108'] // coma (,) ittit eniyum add akan kayyum
+const ownerNumber = ['918138898059', '918078438059'] // coma (,) ittit eniyum add akan kayyum
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
