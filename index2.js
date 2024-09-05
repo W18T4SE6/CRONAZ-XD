@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('*Connected*')
 
-let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
+let up = `*CRONAZ-XD Bot Started✅*\n\n*Prefix: [${prefix}]*`;
 
         //conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://ik.imagekit.io/eypz/1724661875852_gwwMRtTtz.png` }, caption: up })
 
@@ -80,7 +80,7 @@ let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
   })
 })
 */
-    	let AmeenIntL = 'https://chat.whatsapp.com/GVxT4w51GIU3sndNPZGTnw'
+    	let AmeenIntL'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z'
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());
        let AmeenIntJ = '120363232826409191@g.us'
         conn.sendMessage(AmeenIntJ, { 
