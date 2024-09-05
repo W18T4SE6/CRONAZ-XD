@@ -80,7 +80,7 @@ let up = `*CRONAZ-XD Bot Started✅*\n\n*Prefix: [${prefix}]*`;
   })
 })
 */
-    	let AmeenIntL'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z'
+    	let AmeenIntL'https://chat.whatsapp.com/LgGYtN5RSzkAe643HGR1Iq'
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());
        let AmeenIntJ = '120363232826409191@g.us'
         conn.sendMessage(AmeenIntJ, { 
