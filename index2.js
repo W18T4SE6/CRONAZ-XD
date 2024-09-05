@@ -80,7 +80,7 @@ let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
   })
 })
 */
-    	let AmeenIntL'https://chat.whatsapp.com/LgGYtN5RSzkAe643HGR1Iq'
+    	let AmeenIntL'https://chat.whatsapp.com/GVxT4w51GIU3sndNPZGTnw';
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());
        let AmeenIntJ = '120363232826409191@g.us'
         conn.sendMessage(AmeenIntJ, { 
