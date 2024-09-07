@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('*Connected*')
 
-let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
+let up = `*CRONAZ-XD Bot Started✅*\n\n*Prefix: [${prefix}]*`;
 
         //conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://ik.imagekit.io/eypz/1724661875852_gwwMRtTtz.png` }, caption: up })
 
