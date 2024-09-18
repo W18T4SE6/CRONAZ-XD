@@ -8,7 +8,7 @@ eypz({
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-let Ameen = 'https://file.io/X7m7nyDdT9ic'
+let Ameen = 'https://file.io/X7m7nyDdT9ic
 let AmeenInt = `
 ╭━━━〔 ᴄʀᴏɴᴀᴢ-xᴅ ⁩〕━━━···▸
 ┃╭──────────────···▸
