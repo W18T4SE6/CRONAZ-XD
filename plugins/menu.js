@@ -10,8 +10,8 @@ eypz({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 let Ameen = 'https://ik.imagekit.io/eypz/1725602183778_CZFOnwENd.png'
 let AmeenInt = `
-╭━━━〔 ᴄʀᴏɴᴀᴢ-xᴅ ⁩〕━━━···▸
-┃╭──────────────···▸
+╭━━━〔 ᴄʀᴏɴᴀᴢ-xᴅ ⁩〕══════⊷❍
+┃╭══════════════════⊷❍
 ✧│ *ᴏᴡɴᴇʀ :*  ᴡʜɪᴛᴇ-ꜱᴇʀ
 ✧│ *ᴜsᴇʀ :*  ????
 ✧│ *ᴘʟᴜɢɪɴs :* 160
