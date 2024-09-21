@@ -25,7 +25,7 @@ get session https://octa-pair.onrender.com
 
 ## ```Connect With Me```
 
-<a href="https://api.whatsapp.com/send?phone=918078438059&text=hello+White+d Ser+❤️✨"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://api.whatsapp.com/send?phone=918078438059&text=hello+White+Ser+❤️✨"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 <a href="https://instagram.com/kl_white_ser"><img src="https://img.shields.io/badge/Connect on instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 
 ## ```Bot Support Groups```
