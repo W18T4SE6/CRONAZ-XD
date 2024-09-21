@@ -84,7 +84,7 @@ let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());
        let AmeenIntJ = '120363232826409191@g.us'
         conn.sendMessage(AmeenIntJ, { 
-        image: { url: `https://ik.imagekit.io/eypz/1726917624962_e1cJGzrdW.png` }, 
+        image: { url: `https://ik.imagekit.io/eypz/1726918811909_TFZG6PbDD.png` }, 
        caption: up 
   })
 }
