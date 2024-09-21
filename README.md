@@ -32,7 +32,7 @@ get session https://octa-pair.onrender.com
 
 <a href="https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 
-<a href="https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z"><img src="https://img.shields.io/badge/Follow group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://chat.whatsapp.com/He0371zf2uhBKuTFKtQ7RZ"><img src="https://img.shields.io/badge/Follow group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 
 
 
