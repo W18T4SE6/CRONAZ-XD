@@ -26,13 +26,3 @@ get session https://octa-pair.onrender.com
 
 
 
-#### For Help To Visit Here
-
-<a href='https://instagram.com/kl_white_ser' target="_blank"><img alt='WHITE-SER' src='https://img.shields.io/badge/-WHITE_INT-white?style=for-the-badge&logo=instagram&logoColor=pink'/></a>
-<br>
-
-<a href='https://wa.me/918138898059?text=ʜᴇʏ🌝!+ᴡᴀɴᴛ+ʜᴇʟᴩ' target="_blank"><img alt='WHITE-SER' src='https://img.shields.io/badge/-WHITE_INT-white?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
-<br>
-
-<a href='https://github.com/W18T4SE6' target="_blank"><img alt='WHITE-SER' src='https://img.shields.io/badge/-WHITE_INT-white?style=for-the-badge&logo=github&logoColor=black'/></a>
-<br>
