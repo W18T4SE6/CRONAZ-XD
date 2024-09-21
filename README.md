@@ -13,6 +13,10 @@ get session https://octa-pair.onrender.com
 
 
 
+2. Now Deploy
+    <br>
+<a href='https://qr-dnpk.onrender.com/render.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
+
 
 
 
