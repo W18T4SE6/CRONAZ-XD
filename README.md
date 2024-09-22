@@ -14,7 +14,6 @@ Open Source whatsapp bot
 
 <br>
 
-<br>
 
 #### Create Session
 
