@@ -2,15 +2,8 @@
 Open Source whatsapp bot
 
 
-
-
- Get Session ID
-   <br>
-   > For Indian users Connect to a usa Vpn while login
-    
-     <a href='https://octa-pair.onrender.com' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
-
+get session https://octa-pair.onrender.com
+ 
 
 #### DEPLOY TO RENDER 
 
