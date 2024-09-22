@@ -1,6 +1,16 @@
 # CRONAZ-XD
 Open Source whatsapp bot
 
+> **Warning**: Do not sell this script.
+
+<center>
+
+<img alt=🪄🍪 height="300" src="https://ik.imagekit.io/eypz/1726949823665_jbpkSlpif.png">
+
+</center>
+
+<h1 align="center">CRONAZ-XD</h1>
+
 
 Get Session ID https://octa-pair.onrender.com
 
