@@ -17,7 +17,7 @@ Open Source whatsapp bot
 
 #### Create Session
 
-    <br>
+    
 
 <a href='https://octa-pair.onrender.com' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/-SESSION-black?style=for-the-badge&logo=qrcode&logoColor=white'/></a>
 
