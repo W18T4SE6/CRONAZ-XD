@@ -1,7 +1,7 @@
 # CRONAZ-XD
 Open Source whatsapp bot
 
-> **Warning**: Do not sell this script.
+
 
 <center>
 
