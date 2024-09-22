@@ -13,8 +13,10 @@ Open Source whatsapp bot
 <h1 align="center">CRONAZ-XD</h1>
 
 
-Get Session ID https://octa-pair.onrender.com
-
+<br>
+#### Create Session
+    <br>
+<a href='https://octa-pair.onrender.com' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/-Create-white?style=for-the-badge&logo=qrcode&logoColor=black'/></a>
 
 #### DEPLOY TO RENDER 
 
