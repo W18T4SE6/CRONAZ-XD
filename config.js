@@ -12,4 +12,7 @@ OWNER_NAME: process.env.OWNER_NAME || "𝑾𝒉𝒊𝒕𝒆 𝒔𝒆𝒓",
 MENU: process.env.MENU || "https://ironman.koyeb.app/ironman/anime/waifu?type=long_hair",
 BOT_NAME: process.env.BOT_NAME || "CRONAZ-XD",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+wait: "⏳",
+done: "✅",
+fail: "❌"
 };
