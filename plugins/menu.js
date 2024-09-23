@@ -8,7 +8,7 @@ eypz({
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-let Ameen = 'https://ik.imagekit.io/eypz/1726913889055_10OO4qFQj.png'
+let Ameen = 'https://ik.imagekit.io/eypz/1727112491871_toukEpWlH.png'
 let AmeenInt = `
 ╭━━━〔 ᴄʀᴏɴᴀᴢ-xᴅ ⁩〕══════⊷❍
 ┃╭══════════════════⊷❍
