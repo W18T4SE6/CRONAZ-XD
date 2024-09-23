@@ -1,4 +1,5 @@
-const { commands, eypz } = require('../command'); 
+const config = require('../config')
+    const { commands, eypz } = require('../command'); 
 
 /* eypz({
     command: 'ping',
