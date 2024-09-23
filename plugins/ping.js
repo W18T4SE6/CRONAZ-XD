@@ -15,5 +15,8 @@ eypz({
         const end = new Date().getTime();
         const TripTime = end - start;
         await conn.sendMessage(from, { text: `🏓 Pong!: \`${TripTime} ms`, edit: edited.key });
-    }
+    }catch(e){
+console.log(e)
+reply(`${e}`)
+       }
 });
