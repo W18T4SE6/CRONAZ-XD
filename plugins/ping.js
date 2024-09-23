@@ -1,6 +1,6 @@
 const { commands, eypz } = require('../command'); 
 
-eypz({
+/* eypz({
     command: 'ping',
     category: 'mics',
     category: "main",
@@ -19,4 +19,25 @@ eypz({
 console.log(e)
 reply(`${e}`)
        }
-});
+}); */
+
+eypz({
+    pattern: "alive",
+    desc: "Check bot online or no.",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+    const AmeenT = '📍ping...'
+      m.react(config.load)
+          const AmeenS = await conn.sendMessage(from, { text: AmeenT }, { quoted: mek }); 
+    const end = new Date().getTime();
+    const TripTime = end - start;
+    const AmeenET = '*🙈Pong!* ' + TripTime ' *ms*'
+    await conn.sendMessage(from, { text: AmeenET , edit: AmeenS.key });
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
