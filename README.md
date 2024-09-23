@@ -9,7 +9,7 @@ Open Source whatsapp bot
   </p>
 
 <p align="center">
-<img src="https://ik.imagekit.io/eypz/1727108546170_Ny2Ko9TVE.png" width="300" height="300"/>
+<img src="[https://ik.imagekit.io/eypz/1727108546170_Ny2Ko9TVE.png](https://ik.imagekit.io/eypz/1727108546170_Ny2Ko9TVE.png)" width="300" height="300"/>
 </p>
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=CRONAZ-XD-BOT+WHATSAPP+BOT" alt="">
