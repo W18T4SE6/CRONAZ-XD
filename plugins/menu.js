@@ -8,17 +8,17 @@ eypz({
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-let Ameen = 'https://ik.imagekit.io/eypz/1727112491871_toukEpWlH.png'
+let Ameen = 'https://telegra.phundefined'
 let AmeenInt = `
-╭━━━〔 ᴄʀᴏɴᴀᴢ-xᴅ ⁩〕══════⊷❍
-┃╭══════════════════⊷❍
-⚆│  *ᴏᴡɴᴇʀ :*  ᴡʜɪᴛᴇ-ꜱᴇʀ
-✧│  *ᴜsᴇʀ :*  ????
-⚆│  *ᴘʟᴜɢɪɴs :* 160
-✧│  *ᴅᴀᴛᴇ :*  ?????
-⚆│  *ᴛɪᴍᴇ :*  ?????
-✧│  *ᴜᴘᴛɪᴍᴇ :*??? ᴍɪ
-⚆│  *ᴠᴇʀsɪᴏɴ :* ᴠ1.0.0
+╭━━━〔 ᴄʀᴏɴᴀᴢ-xᴅ ⁩〕━━━···▸
+┃╭──────────────···▸
+✧│ *ᴏᴡɴᴇʀ :*  ᴡʜɪᴛᴇ-ꜱᴇʀ
+✧│ *ᴜsᴇʀ :* 
+✧│ *ᴘʟᴜɢɪɴs :* 160
+✧│ *ᴅᴀᴛᴇ :* 
+✧│ *ᴛɪᴍᴇ :*  
+✧│ *ᴜᴘᴛɪᴍᴇ :* 
+✧│ *ᴠᴇʀsɪᴏɴ :* ᴠ1.0.0
 ┃╰══════════════════⊷❍
 ╰══════════════════⊷❍
         ⇆ㅤ||◁ㅤ❚❚ㅤ▷||ㅤ⇆
@@ -282,9 +282,9 @@ let AmeenInt = `
 
 
 try{
-return await conn.sendMessage(from,{image: {url: Ameen },caption: AmeenInt },{quoted: mek})
+return await conn.sendMessage(from,{image: {url: config.MENU },caption: AmeenInt },{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
 }
-}) 
+})
