@@ -48,5 +48,4 @@ Open Source whatsapp bot
 
 
 
-
-
+𝘍𝘐𝘟𝘐𝘕𝘎 𝘉𝘖𝘛 
