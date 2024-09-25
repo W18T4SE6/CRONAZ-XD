@@ -13,7 +13,7 @@ let AmeenInt = `
 ╭━━━ 〔 𝐂𝐑𝐎𝐍𝐀𝐙-𝐗𝐃 〕━━━┈⊷❍
 ┃✵╭──────────────
 ┃✵│▸ *BOT-OWNER* : 𝐖𝐇𝐈𝐓𝐄 𝐒𝐄𝐑
-┃✵│▸ *COMMANDER* : ***
+┃✵│▸ *COMMANDER* : 𝐀𝐂𝐇𝐔 𝐒𝐄𝐑
 │✰╰──────────────★
 ┃✵│▸ *PREFIX* : .
 ┃✵│▸ *WORKTYPE* : public mode
