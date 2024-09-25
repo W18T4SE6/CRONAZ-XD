@@ -355,7 +355,7 @@ let AmeenInt = `
 ││◦➛ aesthetic
 ││◦➛ islamic
 ╰────────────┈⊷❍ 
- ╭──────「 *Modern-Logos* 」─────┈⊷❍
+ ╭──────「 *Cr7-Logos* 」─────┈⊷❍
 ││◦➛ cr7
 ╰────────────┈⊷ 
  ╭──────「 *Finance* 」─────┈⊷❍
