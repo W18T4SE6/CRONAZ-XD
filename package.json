@@ -2,9 +2,9 @@
   "name": "Ikuze",
   "version": "1.1.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "index2.js",
+  "main": "index.js",
   "scripts": {
-    "start": "pm2 start index2.js --deep-monitoring --attach --name ikuze",
+    "start": "pm2 start index.js --deep-monitoring --attach --name ikuze",
     "stop": "pm2 stop ikuze",
     "restart": "pm2 restart ikuze"
   },
