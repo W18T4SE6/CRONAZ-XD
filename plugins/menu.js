@@ -370,7 +370,7 @@ let AmeenInt = `
 ││◦➛ waifu
 ││◦➛ neko
 ││◦➛ shinobu
-││◦➛ megumin
+││◦➛ loli
 ││◦➛ cosplay
 ││◦➛ couplepp
 ╰────────────┈⊷
