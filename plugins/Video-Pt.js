@@ -9,6 +9,7 @@ eypz({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
+    const Ameen = 'https://files.catbox.moe/7q1fzw.mp4'
   m.react('❤️')
 return await conn.sendMessage(from, { video: { url: Ameen }, mimetype: 'video/mp4', gifPlayback: true, ptv: true, caption: "◽By Ameen!" })
 }catch(e){
