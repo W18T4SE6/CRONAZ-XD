@@ -7,7 +7,7 @@ getContentType,
 fetchLatestBaileysVersion,
 Browsers
 } = require('@whiskeysockets/baileys')
-
+import Ameen from './lib/Cronex.js'
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
@@ -72,27 +72,7 @@ console.log('*Connected*')
                 let bot = 'heyy'
     await Ameen(bot)
     console.log('Sent Message')
-        }
-
-let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
-
-        //conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://ik.imagekit.io/eypz/1724661875852_gwwMRtTtz.png` }, caption: up })
-
-    /*    ownerNumber.forEach(ameen => {
-    conn.sendMessage(ameen + "@s.whatsapp.net", { 
-        image: { url: `https://ik.imagekit.io/eypz/1724661875852_gwwMRtTtz.png` }, 
-       caption: up 
-  })
-})
-*/
-    	let AmeenIntL = 'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z';
-     conn.groupAcceptInvite(AmeenIntL.split('/').pop());
-       let AmeenIntJ = '120363232826409191@g.us'
-        conn.sendMessage(AmeenIntJ, { 
-        image: { url: `https://ik.imagekit.io/eypz/1726918811909_TFZG6PbDD.png` }, 
-       caption: up 
-  })
-}
+        }}
 })
 conn.ev.on('creds.update', saveCreds)  
 
