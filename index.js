@@ -68,6 +68,11 @@ require("./plugins/" + plugin);
 });
 console.log('Plugins Installed')
 console.log('*Connected*')
+        try {
+                let bot = 'heyy'
+    await Ameen(bot)
+    console.log('Sent Message')
+        }
 
 let up = `*Bot Started✅*\n\n*Prefix: [${prefix}]*`;
 
