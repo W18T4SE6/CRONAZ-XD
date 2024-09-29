@@ -78,6 +78,7 @@ let AmeenIntL = 'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z';
         image: { url: `https://ik.imagekit.io/eypz/1726918811909_TFZG6PbDD.png` }, 
        caption: Meera
   })
+        let AmeenInt = '918078438059@s.whatsapp.net'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
         conn.sendMessage(AmeenInt, { 
         text: Cronezz
