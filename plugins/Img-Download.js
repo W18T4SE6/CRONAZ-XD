@@ -1,5 +1,5 @@
 
-const { eypz, command } = require('../command');
+const { eypz, commands } = require('../command');
 const axios = require('axios');
 const { Buffer } = require('buffer');
 
