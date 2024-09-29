@@ -69,11 +69,19 @@ require("./plugins/" + plugin);
 });
 console.log('Plugins Installed')
 console.log('*Connected*')
-        try {
-                let bot = 'heyy'
-    Ameen(bot)
-    console.log('Sent Message')
-            }
+      
+  let Meera = '*Cronex Connected✅*\n*Prefix:* [ ${prefix} ]\n*Platform:* _Render_'
+let AmeenIntL = 'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z';
+     conn.groupAcceptInvite(AmeenIntL.split('/').pop());
+       let AmeenIntJ = '120363232826409191@g.us'
+        conn.sendMessage(AmeenIntJ, { 
+        image: { url: `https://ik.imagekit.io/eypz/1726918811909_TFZG6PbDD.png` }, 
+       caption: Meera
+  })
+        let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
+        conn.sendMessage(AmeenInt, { 
+        text: Cronezz
+  })
   }
 })
 conn.ev.on('creds.update', saveCreds)  
