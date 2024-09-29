@@ -25,7 +25,8 @@ const ownerNumber = ['918138898059', '918078438059'] // coma (,) ittit eniyum ad
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
-const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
+        const Cronez = sessdata. replace('𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~', '')
+const filer = File.fromURL(`https://mega.nz/file/${Cronez}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
@@ -70,7 +71,7 @@ console.log('Plugins Installed')
 console.log('*Connected*')
         try {
                 let bot = 'heyy'
-    await Ameen(bot)
+    Ameen(bot)
     console.log('Sent Message')
         }}
 })
