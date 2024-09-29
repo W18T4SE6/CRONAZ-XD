@@ -7,7 +7,7 @@ getContentType,
 fetchLatestBaileysVersion,
 Browsers
 } = require('@whiskeysockets/baileys')
-const Ameen = require('./lib/Cronex.js')
+//const Ameen = require('./lib/Cronex.js')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
