@@ -73,7 +73,8 @@ console.log('*Connected*')
                 let bot = 'heyy'
     Ameen(bot)
     console.log('Sent Message')
-        }}
+            }
+  }
 })
 conn.ev.on('creds.update', saveCreds)  
 
