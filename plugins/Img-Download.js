@@ -42,7 +42,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
             🌟 *-------「 CRONEX-XD Image ${i + 1} from your search! 」-------* 🌟
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+ ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɪɴᴛ ᴛᴇᴀᴍ
 `
 }, { quoted: mek });
 }
