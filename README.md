@@ -46,6 +46,6 @@ Open Source whatsapp bot
 
 <a href="https://chat.whatsapp.com/He0371zf2uhBKuTFKtQ7RZ"><img src="https://img.shields.io/badge/Follow group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 
+𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐖𝐇𝐈𝐓𝐄 𝐒𝐄𝐑  𝐂𝐘𝐁𝐄𝐑 𝐒𝐇𝐀𝐃𝐎𝐖 
 
-
-𝘍𝘐𝘟𝘐𝘕𝘎 𝘉𝘖𝘛 
+𝘍𝘐𝘟𝘐𝘕𝘎 𝘉𝘖𝘛  
