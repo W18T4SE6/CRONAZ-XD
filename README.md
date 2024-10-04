@@ -40,17 +40,10 @@
 
 
 
-## ```Connect With Me```
-
-<a href="https://api.whatsapp.com/send?phone=918078438059&text=hello+White+Ser+❤️✨"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-<a href="https://instagram.com/kl_white_ser"><img src="https://img.shields.io/badge/Connect on instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-
-## ```Bot Support Groups```
-
-<a href="https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-
-<a href="https://chat.whatsapp.com/He0371zf2uhBKuTFKtQ7RZ"><img src="https://img.shields.io/badge/Follow group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-
+## ## ```Connect With Me```
+<p align="center">
+<a href="https://wa.me/918078438059"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐖𝐇𝐈𝐓𝐄 𝐒𝐄𝐑  𝐂𝐘𝐁𝐄𝐑 𝐒𝐇𝐀𝐃𝐎𝐖 
 
 𝘍𝘐𝘟𝘐𝘕𝘎 𝘉𝘖𝘛  
