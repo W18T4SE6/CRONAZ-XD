@@ -70,7 +70,7 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('*Connected*')
       
-  let Meera = '*Cronex Connected✅*\n*Prefix:* [ ${prefix} ]\n*Platform:* _Render_'
+  let Meera = `*Cronex Connected✅*\n*Prefix:* [ ${prefix} ]\n*Platform:* _Render_`
 let AmeenIntL = 'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z';
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());
        let AmeenIntJ = '120363232826409191@g.us'
