@@ -33,11 +33,13 @@
 
 
 
-
-## ```Connect With Me```
-<p align="center">
-<a href="https://wa.me/918078438059"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+## ```Support Me```
+<a href='https://www.instagram.com/kl_white_ser' target="_blank"><img alt='Instagram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=instagram' width="96.35" height="28"/></a></p>
+<a href='918078438059' target="_blank"><img alt='owner' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=Owner' width="96.35" height="28"/></a></p>
+<a href='https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+<a href='https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-Channel-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+<a href='https://www.youtube.com' target="_blank"><img alt='Youtube' src='https://img.shields.io/badge/SUBSCRIBE-h?color=black&style=for-the-badge&logo=youtube' width="96.35" height="28"/></a></p>
+</p>
 
   
 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐖𝐇𝐈𝐓𝐄 𝐒𝐄𝐑  𝐂𝐘𝐁𝐄𝐑 𝐒𝐇𝐀𝐃𝐎𝐖 
