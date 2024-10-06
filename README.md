@@ -4,14 +4,14 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+<p align="center">  
+  <a href="https://t.me/Tha_Healer">
+    <img alt="X-2.0" height="300" src="https://ik.imagekit.io/eypz/1728220827280_FWLv9BnsE.png">
 
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=CRONAZ-XD +𝐁𝐎𝐓;A+WHATSAPP+BOT;CREATED+BY+WHITE+SER" alt="Typing SVG" /></a>
   </p>
 
-<p align="center">
-<img src="https://ik.imagekit.io/eypz/1727903934970_NMM6G5AAe.png" width="300" height="300"/>
-</p>
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=CRONAZ-XD-BOT+WHATSAPP+BOT" alt="">
 
