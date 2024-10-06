@@ -20,7 +20,7 @@
 
 #### Create Session Id
 
-<a href='https://cronexpair.onrender.com/' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/-SESSION-black?   style=for-the-badge&logo=qrcode&logoColor=white'/></a>
+<a href='https://cronexpair.onrender.com/code' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 #### DEPLOY TO RENDER 
 
