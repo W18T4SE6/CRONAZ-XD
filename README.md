@@ -17,7 +17,6 @@
 
 #### Create Session Id
 
-    
 <a href='https://cronexpair.onrender.com/' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/-SESSION-black?   style=for-the-badge&logo=qrcode&logoColor=white'/></a>
 
 #### DEPLOY TO RENDER 
