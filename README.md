@@ -8,7 +8,9 @@
   <a href="https://t.me/Tha_Healer">
     <img alt="X-2.0" height="300" src="https://ik.imagekit.io/eypz/1728220827280_FWLv9BnsE.png">
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=ᴄʀᴏɴᴀᴢ+xᴅ+ʙᴏᴛ+ᴡᴀꜱ+𝙲𝚁𝙴𝙰𝚃𝙴𝙳+𝙱𝚈+ᴄʀᴏɴᴇx)](https://git.io/typing-svg)
 
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=WHATSAPP+BOT+)](https://git.io/typing-svg)
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
