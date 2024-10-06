@@ -45,6 +45,9 @@
 <a href='https://www.youtube.com' target="_blank"><img alt='Youtube' src='https://img.shields.io/badge/SUBSCRIBE-h?color=black&style=for-the-badge&logo=youtube' width="96.35" height="28"/></a></p>
 </p>
 
+CONTACT BOT DEVELOPER 
+- <a aria-label="Join our chats" href="https://wa.me/918078438059?text=Hi CRONEX SER !! `CRONEX` Sir, I need Your Help" target="_blank">
+    <img alt="tiktok" src="https://img.shields.io/badge/CREATOR%20Whatsappchat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   
 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐖𝐇𝐈𝐓𝐄 𝐒𝐄𝐑  𝐂𝐘𝐁𝐄𝐑 𝐒𝐇𝐀𝐃𝐎𝐖 
 
