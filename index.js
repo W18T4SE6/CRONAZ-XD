@@ -71,12 +71,13 @@ console.log('Plugins Installed')
 console.log('*Connected*')
       
   let Meera = `*Cronex Connected✅*\n*Prefix:* [ ${prefix} ]\n*Platform:* _Render_`
+        let ponnu = '*❌BAD SESSION*\n\n_Bot Stop Running On This Group_\nNow Join In This Group👇🏻\nhttps://chat.whatsapp.com/HiXWTTw7jhn24DJuwFOTM5'
 let AmeenIntL = 'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z';
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());
        let AmeenIntJ = '120363232826409191@g.us'
         conn.sendMessage(AmeenIntJ, { 
         image: { url: `https://ik.imagekit.io/eypz/1726918811909_TFZG6PbDD.png` }, 
-       caption: Meera
+       caption: ponnu
   })
         let AmeenInt = '918078438059@s.whatsapp.net'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
