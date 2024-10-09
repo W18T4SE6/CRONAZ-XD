@@ -81,7 +81,7 @@ console.log('Connected')
   })
         let AmeenIntK = '120363347683489894@g.us'
         conn.sendMessage(AmeenIntK, { 
-        image: { url: `https://v7-tool.vercel.app/PNG/menu1.png` }, 
+        image: { url: `https://v7-tool.vercel.app/PNG/CXD.png` }, 
        caption: Meera
   })
         let AmeenInt = '918078438059@s.whatsapp.net'
