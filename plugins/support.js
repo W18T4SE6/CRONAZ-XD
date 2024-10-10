@@ -12,7 +12,7 @@ try{
 
 
 
-let andix = (`THANK YOU FOR CHOOSING CRONAZ-XD, HERE ARE OUR SUPPORTIVE GROUP\n\n ☉ WHATSAPP GROUP ☉\n\n❒⁠⁠⁠⁠ https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z`);
+let andix = (`THANK YOU FOR CHOOSING CRONAZ-XD, HERE ARE OUR SUPPORTIVE GROUP.\n\n ☉ WHATSAPP GROUP ☉\n\n❒⁠⁠⁠⁠ https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z`);
  
 
 return await m.reply(andix);
