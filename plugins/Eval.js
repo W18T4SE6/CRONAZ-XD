@@ -10,7 +10,7 @@ eypz({
 		category: "owner",
 		filename: __filename
 	},
-     var Ameen = ['916238768108']
+     const Ameen = ['916238768108']
 	async (conn, mek, m, {
 		from,
 		quoted,
