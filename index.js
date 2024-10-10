@@ -75,15 +75,19 @@ console.log('Connected')
 /*let AmeenIntL = 'https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z';
      conn.groupAcceptInvite(AmeenIntL.split('/').pop());*/
        let AmeenIntJ = '120363232826409191@g.us'
-        conn.sendMessage(AmeenIntJ, { 
-        image: { url: `https://v7-tool.vercel.app/PNG/menu.png` }, 
+       /* conn.sendMessage(AmeenIntJ, { 
+       image: { url: `https://v7-tool.vercel.app/PNG/menu.png` }, 
        caption: ponnu
+  })*/
+        conn.sendMessage(AmeenIntJ, { 
+       image: { url: `https://v7-tool.vercel.app/PNG/CXD.png` }, 
+       caption: Meera
   })
-        let AmeenIntK = '120363347683489894@g.us'
+      /*  let AmeenIntK = '120363347683489894@g.us'
         conn.sendMessage(AmeenIntK, { 
         image: { url: `https://v7-tool.vercel.app/PNG/CXD.png` }, 
        caption: Meera
-  })
+  })*/
         let AmeenInt = '918078438059@s.whatsapp.net'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
         conn.sendMessage(AmeenInt, { 
