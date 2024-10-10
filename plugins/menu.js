@@ -36,7 +36,7 @@ let AmeenInt = `
 ││◦➛ time
 ││◦➛ ping
 ││◦➛ info
-││◦➛ runtime
+││◦➛ uptime
 ││◦➛ tempmail
 ││◦➛ time
 ││◦➛ inspire
