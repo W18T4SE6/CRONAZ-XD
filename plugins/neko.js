@@ -1,3 +1,5 @@
+
+const {eypz , commands} = require('../command')
 var axios = require('axios');
 eypz({
     pattern: "neko",
