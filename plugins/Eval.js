@@ -46,4 +46,4 @@ eypz({
 				m.reply(`${e.message}`);
 			}
 		}
-	});
+		}});
