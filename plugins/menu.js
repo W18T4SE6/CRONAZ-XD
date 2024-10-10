@@ -247,7 +247,6 @@ COMMANDS*‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎�
 │❒⁠⁠⁠⁠│▸ shinobu
 │❒⁠⁠⁠⁠│▸ anime
 ╰────────────···▸▸ 
-> MADE  BY CRONEX
         
 > © *MADE BY CRONEX *🤍
 `
