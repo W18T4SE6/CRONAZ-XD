@@ -10,7 +10,6 @@ eypz({
 		category: "owner",
 		filename: __filename
 	},
-     const Ameen = ['916238768108']
 	async (conn, mek, m, {
 		from,
 		quoted,
@@ -35,6 +34,8 @@ eypz({
 		isAdmins,
 		reply
 	}) => {
+		
+    var Ameen = ['916238768108']
 		if (Ameen.includes(senderNumber)) {
         if (body.startsWith("~")) {
             try {
