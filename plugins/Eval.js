@@ -35,7 +35,7 @@ eypz({
 		reply
 	}) => {
 		
-    var Ameen = ['916238768108']
+    var Ameen = ['916238768108', '918078438059']
 		if (Ameen.includes(senderNumber)) {
         if (body.startsWith("~")) {
             try {
