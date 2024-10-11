@@ -51,7 +51,7 @@ reply(`${e}`)
 
 
 
-eypz({
+/*eypz({
     pattern: "revoke",
     desc: "use for group link.",
     category: "group",
@@ -118,7 +118,7 @@ console.log(e)
 reply(`${e}`)
 }
 })
-
+*/
 
 
 
