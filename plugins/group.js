@@ -109,7 +109,7 @@ let ajsalxx = (`_New Group Link_\n\nhttps://chat.whatsapp.com/${code}`)
 
 let axlui = m.sender;
 
-await conn.sendMessage(axlui, { text: ajsalxx }, { quoted: mek });
+
 
         return m.reply("_Group link Revoked_");
 
