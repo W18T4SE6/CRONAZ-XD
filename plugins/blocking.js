@@ -15,7 +15,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
   try{
 
 
-////FUNCTIONS✅️✅️////////
+////FUNCTIONS✅️✅️///////
 
 m.me = conn.user.id.includes(':') ? conn.user.id.split(':')[0]+'@s.whatsapp.net' : client.user.id;
  
