@@ -166,7 +166,7 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ getvar
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *Download* ✣
-│❒⁠⁠⁠⁠│▸ instagram
+│❒⁠⁠⁠⁠│▸ insta
 │❒⁠⁠⁠⁠│▸ facabook
 │❒⁠⁠⁠⁠│▸ ytmp4
 │❒⁠⁠⁠⁠│▸ ytmp3
