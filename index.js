@@ -96,11 +96,7 @@ console.log('Connected')
   }
 })
 conn.ev.on('creds.update', saveCreds)  
-        if (config.MODE === "public") {
-            conn.public = true;
-        } else if (config.MODE === "private") {
-            conn.public = false;
-        }
+        
 
 conn.ev.on('messages.upsert', async(mek) => {
 mek = mek.messages[0]
