@@ -1,5 +1,8 @@
 const {eypz , commands} = require('../command')
 
+
+/// uhhhh ///✅️✅️///
+
 var axios = require('axios');
 eypz({
     pattern: "waifu",
