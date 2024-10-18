@@ -267,6 +267,14 @@ async(conn, mek, m,{from, quoted, body,
 		    groupAdmins, isBotAdmins, 
 		    isAdmins, reply}) => {
 	try{
+		m.me = conn.user.id.includes(':') ? conn.user.id.split(':')[0]+'@s.whatsapp.net' : client.user.id;
+ 
+m.isAdmin = async (who) => {
+ let group = await conn.groupMetadata(m.chat);
+ let participant = group.participants.filter(p => p.id == who);
+ if (participant.length != 0) return (participant[0].admin === 'superadmin' || participant[0].admin === 'admin') ? true : false;   
+ else return false;
+		    }
 		if(!m.isGroup) {
                          return await m.reply("_This is a group command !_");
 		}
@@ -301,6 +309,14 @@ async(conn, mek, m,{from, quoted, body,
 		    groupAdmins, isBotAdmins, 
 		    isAdmins, reply}) => {
 	try{
+		m.me = conn.user.id.includes(':') ? conn.user.id.split(':')[0]+'@s.whatsapp.net' : client.user.id;
+ 
+m.isAdmin = async (who) => {
+ let group = await conn.groupMetadata(m.chat);
+ let participant = group.participants.filter(p => p.id == who);
+ if (participant.length != 0) return (participant[0].admin === 'superadmin' || participant[0].admin === 'admin') ? true : false;   
+ else return false;
+}
 		if(!m.isGroup) {
                          return await m.reply("_This is a group command !_");
 		}
