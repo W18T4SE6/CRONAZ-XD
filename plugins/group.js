@@ -281,3 +281,38 @@ await conn.groupParticipantsUpdate(m.chat, [ameen], 'promote')
 console.log(e)
 reply(`${e}`)
 } })
+
+
+//demote admin 🍃🙄
+
+eypz({
+    pattern: "demote",
+    desc: "demote a user",
+    category: "group",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, 
+		    isCmd, command, args, 
+		    q, isGroup, sender, 
+		    senderNumber, botNumber2, 
+		    botNumber, pushname, isMe, 
+		    isOwner, groupMetadata, 
+		    groupName, participants, 
+		    groupAdmins, isBotAdmins, 
+		    isAdmins, reply}) => {
+	try{
+		if(!m.isGroup) {
+                         return await m.reply("_This is a group command !_");
+		}
+	if (!await m.isAdmin(m.me)) return m.reply("_I'm not an admin_")
+        if (!await m.isAdmin(m.sender)) return m.reply("_This command for only group admins !_")
+		if (!await m.quoted(m.sender)) return m.reply("_Please replay to a Member That u need to demote !_")
+   
+       var ameen = m.quoted.sender
+await conn.groupParticipantsUpdate(m.chat, [ameen], 'demote') 
+	return await m.reply(`User Demoted🙃`)
+	}catch(e){
+console.log(e)
+reply(`${e}`)
+} })
+		    
