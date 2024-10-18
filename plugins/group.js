@@ -280,7 +280,7 @@ m.isAdmin = async (who) => {
 		}
 	if (!await m.isAdmin(m.me)) return m.reply("_I'm not an admin_")
         if (!await m.isAdmin(m.sender)) return m.reply("_This command for only group admins !_")
-		if (!await m.quoted(m.sender)) return m.reply("_Please replay to a Member That u need to promote !_")
+		//if (!await m.quoted(m.sender)) return m.reply("_Please replay to a Member That u need to promote !_")
    
        var ameen = m.quoted.sender
 await conn.groupParticipantsUpdate(m.chat, [ameen], 'promote') 
@@ -322,7 +322,7 @@ m.isAdmin = async (who) => {
 		}
 	if (!await m.isAdmin(m.me)) return m.reply("_I'm not an admin_")
         if (!await m.isAdmin(m.sender)) return m.reply("_This command for only group admins !_")
-		if (!await m.quoted(m.sender)) return m.reply("_Please replay to a Member That u need to demote !_")
+		//if (!await m.quoted(m.sender)) return m.reply("_Please replay to a Member That u need to demote !_")
    
        var ameen = m.quoted.sender
 await conn.groupParticipantsUpdate(m.chat, [ameen], 'demote') 
