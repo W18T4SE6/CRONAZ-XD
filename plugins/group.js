@@ -232,7 +232,7 @@ eypz({
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-var ajsalsparky = ['919539412641','918078438059']
+var ajsalsparky = ['919539412641','918078438059', '916238768108']
 		if (ajsalsparky.includes(senderNumber)) {
 
 try{
@@ -247,3 +247,37 @@ console.log(e)
 reply(`${e}`)
 }
 }});
+
+
+//promote admin 🍃👑
+
+eypz({
+    pattern: "promote",
+    desc: "promote a user",
+    category: "group",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, 
+		    isCmd, command, args, 
+		    q, isGroup, sender, 
+		    senderNumber, botNumber2, 
+		    botNumber, pushname, isMe, 
+		    isOwner, groupMetadata, 
+		    groupName, participants, 
+		    groupAdmins, isBotAdmins, 
+		    isAdmins, reply}) => {
+	try{
+		if(!m.isGroup) {
+                         return await m.reply("_This is a group command !_");
+		}
+	if (!await m.isAdmin(m.me)) return m.reply("_I'm not an admin_")
+        if (!await m.isAdmin(m.sender)) return m.reply("_This command for only group admins !_")
+		if (!await m.quoted(m.sender)) return m.reply("_Please replay to a Member That u need to promote !_")
+   
+       var ameen = m.quoted.sender
+await conn.groupParticipantsUpdate(m.chat, [ameen], 'promote') 
+	return await m.reply(`User Promoted🥳`)
+	}catch(e){
+console.log(e)
+reply(`${e}`)
+} })
