@@ -25,3 +25,11 @@ async(conn, mek, m,{from, quoted, body,
 var Link = q
 var CalciFer = Link.replace('https://chat.whatsapp.com/', '')
 var nimmi = await conn.groupAcceptInvite(CalciFer)
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
+
+
+// Next Plugins🔰
