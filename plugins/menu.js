@@ -96,7 +96,7 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ gpp
 │❒⁠⁠⁠⁠│▸ hidetag
 │❒⁠⁠⁠⁠│▸ kick
-│❒⁠⁠⁠⁠│▸ nsfw
+│❒⁠⁠⁠⁠│▸ invite
 │❒⁠⁠⁠⁠│▸ warn
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *Fun* ✣
@@ -124,26 +124,6 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ smooth
 │❒⁠⁠⁠⁠│▸ tempo
 │❒⁠⁠⁠⁠│▸ nightcore
-╰────────────···▸▸ 
- ╭────────❒⁠⁠⁠⁠ *Image-Edit* ✣
-│❒⁠⁠⁠⁠│▸ shit
-│❒⁠⁠⁠⁠│▸ wasted
-│❒⁠⁠⁠⁠│▸ wanted
-│❒⁠⁠⁠⁠│▸ trigger
-│❒⁠⁠⁠⁠│▸ trash
-│❒⁠⁠⁠⁠│▸ rip
-│❒⁠⁠⁠⁠│▸ sepia
-│❒⁠⁠⁠⁠│▸ rainbow
-│❒⁠⁠⁠⁠│▸ hitler
-│❒⁠⁠⁠⁠│▸ invert
-│❒⁠⁠⁠⁠│▸ jail
-│❒⁠⁠⁠⁠│▸ affect
-│❒⁠⁠⁠⁠│▸ beautiful
-│❒⁠⁠⁠⁠│▸ blur
-│❒⁠⁠⁠⁠│▸ circle
-│❒⁠⁠⁠⁠│▸ facepalm
-│❒⁠⁠⁠⁠│▸ greyscale
-│❒⁠⁠⁠⁠│▸ joke
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *Games* ✣
 │❒⁠⁠⁠⁠│▸ riddle
