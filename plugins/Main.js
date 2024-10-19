@@ -19,6 +19,9 @@ async(conn, mek, m,{from, quoted, body,
 		    groupName, participants, 
 		    groupAdmins, isBotAdmins, 
 		    isAdmins, reply}) => {
+	
+	if (!q) return reply("_🔰Give me a Whatsapp Group Link for join_");
 	try{
-var CalciFer = 
-var nimmi = await conn.groupAcceptInvite(code)
+var Link = q
+var CalciFer = Link.replace('https://chat.whatsapp.com/', '')
+var nimmi = await conn.groupAcceptInvite(CalciFer)
