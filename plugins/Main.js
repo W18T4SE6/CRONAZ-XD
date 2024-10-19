@@ -21,15 +21,19 @@ async(conn, mek, m,{from, quoted, body,
 		    isAdmins, reply}) => {
 	
 	if (!q) return reply("_🔰Give me a Whatsapp Group Link for join_");
-	try{
-var Link = q
-var CalciFer = Link.replace('https://chat.whatsapp.com/', '')
-var nimmi = await conn.groupAcceptInvite(CalciFer)
+	try {
+    var Fek = q
+    if (Fek.includes('https://chat.whatsapp.com/')) {
+    var CalciFer = Fek.replace('https://chat.whatsapp.com/', '')
+    var nimmi = await conn.groupAcceptInvite(CalciFer)
+	    return reply('_Joined..!✅_')
+    } else {
+        return reply('_U are smart!_ _Dont be over smart!😎_')
+    }
 }catch(e){
 console.log(e)
 reply(`${e}`)
-}
-})
+	}})
 
 
 // Next Plugins🔰
