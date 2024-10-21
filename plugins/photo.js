@@ -9,6 +9,7 @@ eypz({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if(!m.quoted.stickerMessage) return await m.reply("Reply to a sticker!");
+    if(m.quoted.stickerMessage.isAnimated === true) return await m.reply('Reply to a non animated sticker.');
     await m.reply("Converting...");
 const buff = await m.quoted.download();
 await conn.sendMessage(m.chat, { image: buff }, { quoted : m });
