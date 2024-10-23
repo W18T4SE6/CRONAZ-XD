@@ -1,6 +1,15 @@
+const {eypz , commands} = require('../command')
 const Jimp = require("jimp");
 var { S_WHATSAPP_NET } = require('@whiskeysockets/baileys');
 const Baileys = require('@whiskeysockets/baileys');
+
+eypz({
+    pattern: "fullpp",
+    desc: "changes profile picture.",
+    category: "owner",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
 try {
   // Download and save media message
@@ -39,3 +48,5 @@ try {
   console.error('Error:', err);
   return err; // Error return value
 }
+
+})
