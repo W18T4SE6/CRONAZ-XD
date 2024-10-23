@@ -9,11 +9,12 @@ eypz({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 let Ameen = 'https://telegra.phundefined'
+    var user = m.pushName
 let AmeenInt = `
 ╭━━━ 〔 𝐂𝐑𝐎𝐍𝐀𝐙-𝐗𝐃 〕━━━┈⊷
 ┃✵╭──────────────
 ┃✵│▸ *BOT-OWNER* : 𝐖𝐇𝐈𝐓𝐄 𝐒𝐄𝐑
-┃✵│▸ *COMMANDER* : USER
+┃✵│▸ *COMMANDER* : ${user}
 │✰╰──────────────*
 ┃✵│▸ *PREFIX* : .
 ┃✵│▸ *WORKTYPE* : public mode
