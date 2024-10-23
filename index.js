@@ -70,7 +70,6 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('Connected')
       
-  })
         let AmeenInt = '918078438059@s.whatsapp.net'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
         conn.sendMessage(AmeenInt, { 
