@@ -79,9 +79,9 @@ console.log('Connected')
        image: { url: `https://v7-tool.vercel.app/PNG/menu.png` }, 
        caption: ponnu
   })*/
-        conn.sendMessage(AmeenIntJ, { 
-       image: { url: `https://v7-tool.vercel.app/PNG/CXD.png` }, 
-       caption: Meera
+       //  conn.sendMessage(AmeenIntJ, { 
+       // image: { url: `https://v7-tool.vercel.app/PNG/CXD.png` }, 
+       // caption: Meera
   })
       /*  let AmeenIntK = '120363347683489894@g.us'
         conn.sendMessage(AmeenIntK, { 
