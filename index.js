@@ -17,7 +17,7 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
-const prefix = '.'
+const prefix = '!'
 
 const ownerNumber = ['918138898059', '918078438059'] // coma (,) ittit eniyum add akan kayyum
 
