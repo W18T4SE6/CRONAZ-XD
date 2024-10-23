@@ -56,7 +56,7 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ menu
 │❒⁠⁠⁠⁠│▸ uptime
 │❒⁠⁠⁠⁠│▸ ping
-│❒⁠⁠⁠⁠│▸ repo
+│❒⁠⁠⁠⁠│▸ fullpp
 │❒⁠⁠⁠⁠│▸ git
 │❒⁠⁠⁠⁠│▸ vv
 ╰────────────···▸▸ 
