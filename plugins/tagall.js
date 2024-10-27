@@ -1,7 +1,7 @@
 /*const config = require('../config')
 const {eypz , commands} = require('../command')
 
-eypz({
+eypz(
 pattern: "tagall",
     desc: "Tags every person of group.",
     category: "group",
