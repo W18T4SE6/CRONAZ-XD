@@ -24,7 +24,7 @@ m.isAdmin = async (who) => {
 
 
 
-////FUNCTIONS✅️✅️////////
+////FUNCTIONS✅️✅️✅️//////
 
 
 
