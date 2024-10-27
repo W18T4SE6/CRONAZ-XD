@@ -1,7 +1,7 @@
 const { commands, eypz } = require('../command'); 
 
 eypz({
-    pattern: "xyztagall",
+    pattern: "tagall",
     desc: "mention evryone in that group.",
     category: "group",
     filename: __filename
