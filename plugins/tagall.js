@@ -1,49 +1,58 @@
-/*const config = require('../config')
-const {eypz , commands} = require('../command')
+const { commands, eypz } = require('../command'); 
 
-eypz(
-pattern: "tagall",
-    desc: "Tags every person of group.",
+eypz({
+    pattern: "xyztagall",
+    desc: "mention evryone in that group.",
     category: "group",
-    filename: __filename, 
-  },
-  async (_0x1ed055, _0x929954) => {
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-      if (!_0x1ed055.isGroup) {
-        return _0x1ed055.reply(tlang().group);
-      }
-      const _0x5d614a = _0x1ed055.metadata.participants || {};
-      if (!_0x1ed055.isAdmin && !_0x1ed055.isCreator) {
-        return _0x1ed055.reply(tlang().admin);
-      }
-      let _0x392a2d =
-        "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " +
-        (_0x929954 ? _0x929954 : "blank Message") +
-        " \n " +
-        Config.caption +
-        " \n\n\n➲ *Author:* " +
-        _0x1ed055.pushName +
-        " 🔖\n";
-      for (let _0x502431 of _0x5d614a) {
-        if (!_0x502431.id.startsWith("918078438059")) {
-          _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
+m.me = conn.user.id.includes(':') ? conn.user.id.split(':')[0]+'@s.whatsapp.net' : client.user.id;
+
+m.isAdmin = async (who) => {
+ let group = await conn.groupMetadata(m.chat);
+ let participant = group.participants.filter(p => p.id == who);
+ if (participant.length != 0) return (participant[0].admin === 'superadmin' || participant[0].admin === 'admin') ? true : false;   
+ else return false;
+}
+
+
+let Y = m.sender;
+
+if (!await m.isGroup) return m.reply("_This is a group command!_")
+
+        if (!await m.isAdmin(Y)) return m.reply("_This command for only group admins_")
+
+const metadata = await conn.groupMetadata(m.chat) 
+
+      
+      const aju = metadata.participants || {};
+       
+      let Axl =
+        "\n══✪〘   *Tag All*   〙✪══\n\n";
+      for (let i of aju) {
+         {
+          Axl += " ⭒ @" + i.id.split("@")[0] + "\n";
         }
       }
-      await _0x1ed055.bot.sendMessage(
-        _0x1ed055.chat,
+
+const { participants } = await conn.groupMetadata(m.chat);
+      return await conn.sendMessage(
+        m.chat,
         {
-          text: _0x392a2d,
-          mentions: _0x5d614a.map((_0x3696c5) => _0x3696c5.id),
+          text: Axl,
+          mentions: participants.map((a) => a.id),
         },
         {
-          quoted: _0x1ed055,
+          quoted: mek,
         }
       );
-    } catch (_0x4450f8) {
-      await _0x1ed055.error(
-        _0x4450f8 + "\n\ncommand: tagall",
-        _0x4450f8,
-        false
-        }
-        })
-*/
+
+
+} catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
+
