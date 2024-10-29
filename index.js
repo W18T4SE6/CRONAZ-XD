@@ -10,6 +10,7 @@ Browsers
 //const Ameen = require('./lib/Cronex.js')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
+const key = 'https://key-bot.onrender.com/check-key';
 const P = require('pino')
 const config = require('./config')
 const qrcode = require('qrcode-terminal')
@@ -20,18 +21,31 @@ const { File } = require('megajs')
 const prefix = '!'
 
 const ownerNumber = ['918138898059', '918078438059', '916238768108'] // coma (,) ittit eniyum add akan kayyum
+async function loadSession() {
+  if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
+    if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
+    const sessdata = config.SESSION_ID;
+    const Cronez = sessdata.replace('𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~', '');
+    const filer = File.fromURL(`https://mega.nz/file/${Cronez}`);
+    filer.download((err, data) => {
+      if (err) throw err;
+      fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
+        console.log('*sᴇssɪᴏɴ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ [🌟]*');
+      });
+    });
+  }
+}
 
+async function checkSecretKey() {
+  try {
+    const { data } = await axios.get(key);
+    return data.key;
+  } catch (error) {
+    console.error("[nun Check Error] " + error.message);
+    return false;
+  }
+}
 //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID
-        const Cronez = sessdata. replace('𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~', '')
-const filer = File.fromURL(`https://mega.nz/file/${Cronez}`)
-filer.download((err, data) => {
-if(err) throw err
-fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("*sᴇssɪᴏɴ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ [🌟]*")
-})})}
 
 const express = require("express");
 const app = express();
@@ -40,6 +54,10 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
+        if (!(await checkSecretKey())) {
+    console.log("[PLUGIN ERROR]");
+    return;
+        }
 console.log("Connecting CRONAZ-XD...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
@@ -81,6 +99,10 @@ conn.ev.on('creds.update', saveCreds)
         
 
 conn.ev.on('messages.upsert', async(mek) => {
+            if (!(await checkSecretKey())) {
+      console.log("[PLUGIN ERROR]");
+      return;
+            }
 mek = mek.messages[0]
 if (!mek.message) return	
 mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
@@ -185,5 +207,6 @@ res.send("CRONAZ-XD 🧚🏻");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
+ loadSession();       
 connectToWA()
 }, 4000);
