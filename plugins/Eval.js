@@ -32,7 +32,8 @@ eypz({
 		groupAdmins,
 		isBotAdmins,
 		isAdmins,
-		reply
+		reply,
+		ameen
 	}) => {
 		
     var Ameen = ['916238768108', '918078438059','919961857267','919207759062','919539412641']
