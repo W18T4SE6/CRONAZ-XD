@@ -119,7 +119,7 @@ const reply = (teks) => {
 conn.sendMessage(from, { text: teks }, { quoted: mek })
 }
         const ameen = (teks) => {
-                conn.sendMessage(from, { text: teks })
+                conn.sendMessage(from, { text: teks }, { quoted: mek })
                 m.react('🕊️')
         }
 
