@@ -54,10 +54,10 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-        if (!(await checkSecretKey())) {
-    console.log("[PLUGIN ERROR]");
+     /*   if (!(await checkSecretKey())) {
+    consocheckSecretKeyle.log("[PLUGIN ERROR]");
     return;
-        }
+        }*/
 console.log("Connecting CRONAZ-XD...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
