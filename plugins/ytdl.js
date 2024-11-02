@@ -42,7 +42,7 @@ const yts = require('yt-search')
 const config = require('../config')
 
 
-eypz({
+/*eypz({
     pattern: "song",
     desc: "download songs",
     category: "download",
@@ -72,3 +72,4 @@ console.log(e)
 reply(`${e}`)
 }
 })
+*/
