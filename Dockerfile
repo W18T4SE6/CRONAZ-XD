@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/W18T4SE6/CRONAZ-XD.git /ninja
-WORKDIR /ninja
+RUN git clone https://github.com/W18T4SE6/CRONAZ-XD.git /CRONEX-XD
+WORKDIR /CRONEX-XD
 RUN npm install
 CMD ["node", "index.js"]
