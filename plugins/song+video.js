@@ -1,4 +1,4 @@
-const {eypz , commands} = require('../command')
+/*const {eypz , commands} = require('../command')
 const fg = require('api-dylux')
 const yts = require('yt-search')
 const config = require('../config')
@@ -78,3 +78,4 @@ console.log(e)
 reply(`${e}`)
 }
 })
+*/
