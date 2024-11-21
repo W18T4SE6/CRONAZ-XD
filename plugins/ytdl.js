@@ -3,7 +3,7 @@ const config = require('../config')
 
 
 eypz({
-    pattern: "song",
+    pattern: "yts",
     desc: "download songs",
     category: "download",
     filename: __filename
