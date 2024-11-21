@@ -32,6 +32,7 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ song
 │❒⁠⁠⁠⁠│▸ video
 │❒⁠⁠⁠⁠│▸ yts
+│❒⁠⁠⁠⁠│▸ ssearch 
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *IA* ✣
 │❒⁠⁠⁠⁠│▸ bot
@@ -121,8 +122,8 @@ let AmeenInt = `
  ╭────────❒⁠⁠⁠⁠ *Download* ✣
 │❒⁠⁠⁠⁠│▸ insta
 │❒⁠⁠⁠⁠│▸ fb
-│❒⁠⁠⁠⁠│▸ ytmp4
-│❒⁠⁠⁠⁠│▸ ytmp3
+│❒⁠⁠⁠⁠│▸ yta
+│❒⁠⁠⁠⁠│▸ story 
 │❒⁠⁠⁠⁠│▸ spotify 
 │❒⁠⁠⁠⁠│▸ upload
 │❒⁠⁠⁠⁠│▸ lyrics  
