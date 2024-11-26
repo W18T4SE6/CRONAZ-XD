@@ -22,16 +22,20 @@ const prefix = '!'
 
 const ownerNumber = ['918138898059', '918078438059', '916238768108'] // coma (,) ittit eniyum add akan kayyum
 async function loadSession() {
-  if (config.SESSION_ID && !fs.existsSync("session")) {
-      console.log("loading session from session id...");
-      fs.mkdirSync("./session");
-      const credsData = await loadSession(config.SESSION_ID);
-      fs.writeFileSync(
-        "./session/creds.json",
-        JSON.stringify(credsData.creds, null, 2)
-      );
-    }
+  if (!fs.existsSync(__dirname + '/session/creds.json')) {
+    if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
+    const sessdata = config.SESSION_ID;
+    const Cronez = sessdata.replace('𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~', '');
+    const filer = File.fromURL(`https://mega.nz/file/${Cronez}`);
+    filer.download((err, data) => {
+      if (err) throw err;
+      fs.writeFile(__dirname + '/session/creds.json', data, () => {
+        console.log('*sᴇssɪᴏɴ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ [🌟]*');
+      });
+    });
+  }
 }
+
 async function checkSecretKey() {
   try {
     const { data } = await axios.get(key);
