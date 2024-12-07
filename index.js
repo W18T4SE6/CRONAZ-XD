@@ -88,10 +88,10 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('Connected')
       
-        let AmeenInt = '120363378523753848@g.us'
+        let jidxyz = '919539412641@s.whatsapp.net'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
-        conn.sendMessage(AmeenInt, { 
-        text: Cronezz
+        conn.sendMessage(jidxyz, { 
+        text: "*BOT CONNECTED✅*\n*RUNNING ON:* RENDER"
   })
   }
 })
