@@ -88,7 +88,7 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('Connected')
       
-        let AmeenInt = '120363232826409191@g.us'
+        let AmeenInt = '120363378523753848@g.us'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
         conn.sendMessage(AmeenInt, { 
         text: Cronezz
