@@ -22,14 +22,14 @@ const prefix = '!'
 
 const ownerNumber = ['918138898059', '918078438059', '916238768108'] // coma (,) ittit eniyum add akan kayyum
 async function loadSession() {
-  if (!fs.existsSync(__dirname + '/session/creds.json')) {
+  if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
     const sessdata = config.SESSION_ID;
     const Cronez = sessdata.replace('𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~', '');
     const filer = File.fromURL(`https://mega.nz/file/${Cronez}`);
     filer.download((err, data) => {
       if (err) throw err;
-      fs.writeFile(__dirname + '/session/creds.json', data, () => {
+      fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
         console.log('*sᴇssɪᴏɴ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ [🌟]*');
       });
     });
@@ -88,10 +88,10 @@ require("./plugins/" + plugin);
 console.log('Plugins Installed')
 console.log('Connected')
       
-        let jidxyz = '919539412641@s.whatsapp.net'
+        let AmeenInt = '120363378523753848@g.us'
         let Cronezz = '*BOT CONNECTED✅*\n*RUNNING ON:* RENDER'
-        conn.sendMessage(jidxyz, { 
-        text: "*BOT CONNECTED✅*\n*RUNNING ON:* RENDER"
+        conn.sendMessage(AmeenInt, { 
+        text: Cronezz
   })
   }
 })
