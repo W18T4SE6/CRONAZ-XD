@@ -1,4 +1,4 @@
-I Iconst {
+const {
 default: makeWASocket,
 useMultiFileAuthState,
 DisconnectReason,
