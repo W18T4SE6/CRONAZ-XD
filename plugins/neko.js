@@ -4,6 +4,7 @@ var axios = require('axios');
 eypz({
     pattern: "neko",
     desc: "random img",
+    react: '🧧',
     category: "main",
     filename: __filename
 },
