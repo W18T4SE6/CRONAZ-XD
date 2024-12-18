@@ -7,6 +7,7 @@ var axios = require('axios');
 eypz({
     pattern: "waifu",
     desc: "random img",
+    react: '🧧',
     category: "main",
     filename: __filename
 },
