@@ -48,10 +48,11 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ uptime
 │❒⁠⁠⁠⁠│▸ ping
 │❒⁠⁠⁠⁠│▸ fullpp
-│❒⁠⁠⁠⁠│▸ git
+│❒⁠⁠⁠⁠│▸ about 
 │❒⁠⁠⁠⁠│▸ list
 │❒⁠⁠⁠⁠│▸ infobot
 │❒⁠⁠⁠⁠│▸ mode
+│❒⁠⁠⁠⁠│▸ broadcast 
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *Mods* ✣
 │❒⁠⁠⁠⁠│▸ left
@@ -64,6 +65,7 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ mention
 │❒⁠⁠⁠⁠│▸ restart
 │❒⁠⁠⁠⁠│▸ left
+│❒⁠⁠⁠⁠│▸ gjid
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *Group* ✣
 │❒⁠⁠⁠⁠│▸ kickall
@@ -101,6 +103,7 @@ let AmeenInt = `
 │❒⁠⁠⁠⁠│▸ weather
 │❒⁠⁠⁠⁠│▸ photo
 │❒⁠⁠⁠⁠│▸ trt
+│❒⁠⁠⁠⁠│▸ system 
 ╰────────────···▸▸ 
  ╭────────❒⁠⁠⁠⁠ *Audio-Edit* ✣
 │❒⁠⁠⁠⁠│▸ deep
