@@ -46,6 +46,7 @@ let AmeenInt = `
 │➣│▸ sc
 │➣│▸ menu
 │➣│▸ uptime
+│➣│▸ runtime
 │➣│▸ ping
 │➣│▸ fullpp
 │➣│▸ about 
@@ -87,6 +88,8 @@ let AmeenInt = `
 │➣│▸ unmute
 │➣│▸ gpp
 │➣│▸ hidetag
+│➣│▸ opentime
+│➣│▸ closetime 
 │➣│▸ kick
 │➣│▸ invite
 │➣│▸ warn
