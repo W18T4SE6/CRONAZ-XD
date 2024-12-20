@@ -17,8 +17,8 @@ try{
 let status = `
 *[ •  CRONAZ-XD - UPTIME ‎ • ]*
 *╭┈───────────────•*
-*│  ◦* *_UPPTIME:➠_*
-*│  ◦* ${upptime(process.upptime())}
+*│  ◦* *_UPTIME:➠_*
+*│  ◦* ${runtime(process.uptime())}
 *│  ◦*
 *│  ◦* *_RAM USAGE:➠_*
 *│  ◦* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
