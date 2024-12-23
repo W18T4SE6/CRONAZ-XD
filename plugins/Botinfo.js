@@ -26,6 +26,13 @@ let dec = `*👋 Hello ${pushname}*
 `
 await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/7m8fsh.png`},caption:dec},{quoted:mek});
 
+// Send audio
+        await conn.sendMessage(from, {
+            audio: { url: 'https://cdn.ironman.my.id/i/mjueor.mp4' },
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
