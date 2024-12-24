@@ -10,10 +10,10 @@ eypz({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try{
-  if (!m.quoted || !m.msg) return await m.reply('_Please Replay To A Valid Insta Link🌸_')
+  if (!m.quoted || !args) return await m.reply('_Please Replay To A Valid Insta Link🌸_')
            
 const igdl = `https://viper.devstackx.in/api/v1/insta?query=`
-let text = m.quoted.msg || m.msg
+let text = m.quoted.msg || args[0]
 let fet = igdl + text
  let hehe = await fetch(fet);
 const response = await hehe.json();
