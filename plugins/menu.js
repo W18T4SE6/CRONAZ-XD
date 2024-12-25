@@ -95,6 +95,7 @@ let AmeenInt = `
  ╭────────❒⁠⁠⁠⁠ *Fun* ➣
 │➣│▸ ranime
 │➣│▸ profile
+│➣│▸ hack
 ╰────────❍─────❍❍➣ 
  ╭────────❒⁠⁠⁠⁠ *Conversion* ➣
 │➣│▸ emomix
