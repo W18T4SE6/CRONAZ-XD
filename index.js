@@ -10,7 +10,7 @@ Browsers
 //const Ameen = require('./lib/Cronex.js')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
-const key = 'https://key-ninja7.vercel.app/check-key';
+const key = 'https://key-ninja7.vercel.app/check-key1';
 const P = require('pino')
 const config = require('./config')
 const qrcode = require('qrcode-terminal')
