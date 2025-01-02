@@ -98,6 +98,7 @@ let AmeenInt = `
 │➣│▸ hack
 │➣│▸ ship
 │➣│▸ character 
+│➣│▸ pickupline 
 ╰────────❍─────❍❍➣ 
  ╭────────❒⁠⁠⁠⁠ *Conversion* ➣
 │➣│▸ emomix
