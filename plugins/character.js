@@ -1,4 +1,4 @@
-const axios = require('axios')
+/*const axios = require('axios')
 const fetch = require('node-fetch');
 const {eypz , commands} = require('../command')
 // ship command 
@@ -63,3 +63,4 @@ async (conn, mek, m, { from, isGroup, text, reply }) => {
         reply("An error occurred while processing the command. Please try again.");
     }
 });
+/*
