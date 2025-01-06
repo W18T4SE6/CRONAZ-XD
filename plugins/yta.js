@@ -30,8 +30,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 ⚙️ TIME - ${data.timestamp}
 
-⚙️ AGO - ${data.ago}
-
 *Reply This Message With Option*
 
 *1.1 Audio With Normal Format*
