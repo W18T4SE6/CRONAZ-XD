@@ -2,7 +2,7 @@ const config = require('../config')
 const { eypz, commands } = require('../command')
 eypz({
   pattern: "del",
-  react: '⛔',
+  react: '😓',
   alias: [','],
   desc: "delete message",
   category: "main",
