@@ -2,7 +2,7 @@ const config = require('../config')
 const {eypz , commands} = require('../command')
 const { fetchJson } = require('../lib/functions')
 eypz({
-    pattern: "aii",
+    pattern: "ai",
     react: "🧠",
     desc: "ai chat",
     category: "main",
