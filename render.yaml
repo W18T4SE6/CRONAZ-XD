@@ -1,1 +1,9 @@
-
+services:
+  - type: web
+    name: AXL-MD
+    env: docker
+    region: Frankfurt
+    plan: free
+    envVars:
+      - key: SESSION_ID
+        sync: false
