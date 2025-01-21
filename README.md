@@ -39,6 +39,10 @@ If You don't have a account in Heroku Create a account.
     <br>
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
+Now Deploy
+    <br>
+<a href='https://heroku.com/deploy?template=https://github.com/Louis-XD/EZRA-XD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
 ### Koyeb
 
 Create account on Koyeb
@@ -51,9 +55,6 @@ Deploy on Koyeb
 
 
 
-Now Deploy
-    <br>
-<a href='https://heroku.com/deploy?template=https://github.com/Louis-XD/EZRA-XD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 ## ```Support Me```
 <a href='https://www.instagram.com/kl_white_ser' target="_blank"><img alt='Instagram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=instagram' width="96.35" height="28"/></a></p>
