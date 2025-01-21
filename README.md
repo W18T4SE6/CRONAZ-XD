@@ -24,20 +24,19 @@
 
 #### DEPLOY TO RENDER 
 
-1. If You don't have a account in render. Create a account.
+f You don't have a account in render. Create a account.
     <br>
 <a href='https://dashboard.render.com/register' target="_blank"><img alt='render' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render&logoColor=white'/></a>
 
 
-
-2. Now Deploy
+Now Deploy
     <br>
 <a href='https://qr-dnpk.onrender.com/render.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
 
 #### DEPLOY TO HEROKU
 
 
-3. If You don't have a account in Heroku Create a account.
+If You don't have a account in Heroku Create a account.
     <br>
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
