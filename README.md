@@ -60,8 +60,8 @@ Deploy on Koyeb
 <a href='https://www.instagram.com/kl_white_ser' target="_blank"><img alt='Instagram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=instagram' width="96.35" height="28"/></a></p>
 
 
-<a href='https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
-<a href='https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-Channel-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+<a href='https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/GROUP-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+<a href='https://chat.whatsapp.com/CfFibovjGmu8tbJtKfs57Z' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/CHANNEL-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
 <a href='https://wa.me/918078438059?text=Hi CRONEX SER !! ``, I need Your Help' target="_blank"><img alt='whatsapp' src='https://img.shields.io/badge/OWNER-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
 </p>
 
