@@ -5,9 +5,9 @@ const {runtime} = require('../lib/functions')
 const axios = require('axios')
 const {sleep} = require('../lib/functions')
 eypz({
-    pattern: "system",
+    pattern: "runtime",
     react: "♠️",
-    alias: ["uptime","status","runtime"],
+    alias: ["runtime"],
     desc: "cheack uptime",
     category: "main",
     filename: __filename
